@@ -58,7 +58,7 @@ namespace MovieApi.WebApi.Controllers
             return Ok(value);
         }
 
-        [HttpPost]
+        [HttpPut]
 
         public async Task<IActionResult> UpdateMovie(UpdateMovieCommand command)
         {
